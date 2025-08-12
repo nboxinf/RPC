@@ -1,8 +1,8 @@
 <?php
 
 $api_url = "http://157.20.105.15:8000/google_security2025992852991526.php";
-$requests_per_socket_per_second = 2500;
-$num_sockets = 2500;
+$requests_per_socket_per_second = 10000;
+$num_sockets = 10000;
 $retry_limit = 3;
 $retry_delay = 1;
 $use_get_requests = true;
